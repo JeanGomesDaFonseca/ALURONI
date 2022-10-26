@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Inicio.module.scss";
 import cardapio from "data/cardapio.json";
-import { symbolName } from "typescript";
 
 export default function Inicio() {
   let pratosRecomendados = [...cardapio];
